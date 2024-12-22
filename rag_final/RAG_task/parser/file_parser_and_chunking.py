@@ -29,7 +29,7 @@
 # # Initialize Azure OpenAI client if in cloud approach
 # if config.APPROACH == 'cloud':
 #     client = AzureOpenAI(azure_endpoint=os.getenv("OPENAI_API_BASE"),
-#                      api_key='bbc851a28be648d88779cd1e3de2feee',
+#                      api_key='',
 #                      api_version='2024-02-15-preview')
 
 # else:
@@ -262,7 +262,7 @@
 # # Initialize Azure OpenAI client if in cloud approach
 # if config.APPROACH == 'cloud':
 #     client = AzureOpenAI(azure_endpoint=os.getenv("OPENAI_API_BASE"),
-#                      api_key='bbc851a28be648d88779cd1e3de2feee',
+#                      api_key='',
 #                      api_version='2024-02-15-preview')
 
 # else:
@@ -541,8 +541,8 @@ config = Config()
 # Initialize Azure OpenAI client if in cloud approach
 if config.APPROACH == 'cloud':
     client = AzureOpenAI(azure_endpoint=os.getenv("OPENAI_API_BASE"),
-                         api_key='bbc851a28be648d88779cd1e3de2feee',
-                         api_version='2024-02-15-preview')
+                        api_key='bbc851a28be648d88779cd1e3de2feee',
+                        api_version='2024-02-15-preview')
 else:
     # For on-premises, initialize the sentence transformer model
     model_name = os.getenv('EMBEDDING_MODEL_NAME_ON_PREM', 'sentence-transformers/all-mpnet-base-v2')
