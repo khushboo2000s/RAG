@@ -204,7 +204,7 @@ if __name__ == "__main__":
     if config.APPROACH == 'cloud':
         client = AzureOpenAI(
             azure_endpoint=os.getenv("OPENAI_API_BASE"),
-            api_key='bbc851a28be648d88779cd1e3de2feee',  # Use the environment variable for API key
+            api_key='',  # Use the environment variable for API key
             api_version='2024-02-15-preview'
         )
     

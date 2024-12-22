@@ -27,9 +27,9 @@ def rephrase_query(inputs):
  
 # Initialize the Azure OpenAI model
 llm = AzureChatOpenAI(
-    api_key='81505dbbd42945189028d9585b80a042',
-    azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
-    api_version='2024-02-15-preview',
+    api_key='',
+    azure_endpoint='',
+    api_version='',
     model="gpt-mini",
     temperature=0.1
 )
@@ -74,8 +74,8 @@ print(rephrased_query)
  
 # # Initialize the Azure OpenAI model
 # llm = AzureChatOpenAI(
-#     api_key='81505dbbd42945189028d9585b80a042',
-#     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
+#     api_key='',
+#     azure_endpoint='',
 #     api_version='2024-02-15-preview',
 #     model="gpt-mini",
 #     temperature=0.1

@@ -146,7 +146,7 @@
 # async def main():
 #     global map_chain, reduce_chain, llm
 
-#     serp_api_key = "654d1b4ac218345d7a392dbe045d0b140f589482ff5e69a87f4aa1c853164418"
+#     serp_api_key = ""
 #     query = "Indian International Finance System"
 
 #     # Fetch search results using SerpAPI
@@ -169,7 +169,7 @@
 
 #     # Configure Azure OpenAI client
 #     llm = AzureChatOpenAI(
-#         api_key='81505dbbd42945189028d9585b80a042',
+#         api_key='',
 #         azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 #         api_version='2024-02-15-preview',
 #         model="chat"
@@ -339,7 +339,7 @@
 
 # # Main async function to coordinate everything
 # async def main():
-#     serp_api_key = "654d1b4ac218345d7a392dbe045d0b140f589482ff5e69a87f4aa1c853164418"
+#     serp_api_key = ""
 #     query = "Indian International Finance System"
 
 #     # Fetch search results using SerpAPI
@@ -356,7 +356,7 @@
 
 #     # Configure Azure OpenAI client
 #     llm = AzureChatOpenAI(
-#         api_key='81505dbbd42945189028d9585b80a042',
+#         api_key='',
 #         azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 #         api_version='2024-02-15-preview',
 #         model="chat"
@@ -520,7 +520,7 @@
 
 # # Main async function to coordinate everything
 # async def main():
-#     serp_api_key = "654d1b4ac218345d7a392dbe045d0b140f589482ff5e69a87f4aa1c853164418"
+#     serp_api_key = ""
 #     query = "Indian International Finance System"
 
 #     # Fetch search results using SerpAPI
@@ -537,7 +537,7 @@
 
 #     # Configure Azure OpenAI client
 #     llm = AzureChatOpenAI(
-#         api_key='81505dbbd42945189028d9585b80a042',
+#         api_key='',
 #         azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 #         api_version='2024-02-15-preview',
 #         model="chat"
@@ -589,7 +589,7 @@
 #     return results
 
 
-# serp_api_key = "a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53"
+# serp_api_key = ""
 
 # # Function to load documents from URLs
 # def load_documents(url: str):
@@ -614,7 +614,7 @@
 
 # # Configure the Azure OpenAI client
 # llm = AzureChatOpenAI(
-#     api_key='81505dbbd42945189028d9585b80a042',
+#     api_key='',
 #     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 #     api_version='2024-02-15-preview',  # Make sure to use the correct version
 #     model="chat"
@@ -894,7 +894,7 @@ async def process_documents_async(app, split_docs):
 
 # SerpAPI Search Function
 def search_serpapi(query: str):
-    client = serpapi.Client(api_key="a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53")
+    client = serpapi.Client(api_key="")
     results = client.search({
         'engine': 'google',
         'q': query
@@ -912,7 +912,7 @@ async def main():
 
     # Configure Azure OpenAI client
     llm = AzureChatOpenAI(
-        api_key='81505dbbd42945189028d9585b80a042',
+        api_key='',
         azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
         api_version='2024-02-15-preview',
         model="chat"

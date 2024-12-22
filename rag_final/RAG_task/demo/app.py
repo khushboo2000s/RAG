@@ -34,16 +34,16 @@ def process_documents_for_cloud_vector_store(azure_search_config, azure_openai_c
 if __name__ == "__main__":
    
     azure_search_config = {
-                        'endpoint': "https://gptkb-jcgzeo3krxxra.search.windows.net",
-                        'key': "2AlK6WpXT16VPryZYgEnTohsHsnmMAvAj7Wa6Do9dCAzSeCk6q9d",
-                        'unstructured_rag_index': "testing_2", # add in db in tenant specific
+                        'endpoint': "",
+                        'key': "",
+                        'unstructured_rag_index': "", # add in db in tenant specific
                         }
     
     # generic
     azure_openai_config = {
-                        'endpoint': "https://cog-jcgzeo3krxxra.openai.azure.com/",
-                        'api_key': "81505dbbd42945189028d9585b80a042",
-                        'api_version': "2024-02-15-preview",  # Optional, you can omit this if you want to use the default
+                        'endpoint': "",
+                        'api_key': "",
+                        'api_version': "",  # Optional, you can omit this if you want to use the default
                         'azure_embeddings_deployment_name':'embedding',
                     }
     

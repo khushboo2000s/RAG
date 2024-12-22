@@ -410,7 +410,7 @@
 # # Azure OpenAI configuration
 # client = AzureOpenAI(
 #     azure_endpoint="https://cog-jcgzeo3krxxra.openai.azure.com/",
-#     api_key="81505dbbd42945189028d9585b80a042",
+#     api_key="",
 #     api_version="2024-02-15-preview"
 # )
 
@@ -547,8 +547,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Azure OpenAI configuration
 client = AzureOpenAI(
     azure_endpoint="https://cog-jcgzeo3krxxra.openai.azure.com/",
-    api_key="81505dbbd42945189028d9585b80a042",
-    api_version="2024-02-15-preview"
+    api_key="",
+    api_version=""
 )
 
 # Define the constant message for out-of-scope questions   #*

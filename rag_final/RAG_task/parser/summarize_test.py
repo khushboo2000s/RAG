@@ -32,7 +32,7 @@ docs = loader.load()
 
 # # Configure the Azure OpenAI client
 llm = AzureChatOpenAI(
-    api_key='81505dbbd42945189028d9585b80a042',
+    api_key='',
     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
     api_version='2024-02-15-preview',  # Make sure to use the correct version
     # azure_deployment='gpt-mini',  # Specify your Azure OpenAI deployment name

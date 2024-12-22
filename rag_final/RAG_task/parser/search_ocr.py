@@ -22,7 +22,7 @@ AZURE_SEARCH_INDEX_NAME = os.getenv('AZURE_SEARCH_INDEX_NAME', 'azure_ocr')
 # Initialize OpenAI client for Azure
 client = AzureOpenAI(
     azure_endpoint="https://cog-jcgzeo3krxxra.openai.azure.com/",
-    api_key="81505dbbd42945189028d9585b80a042",  # Ensure to use the correct API key from the environment
+    api_key="",  # Ensure to use the correct API key from the environment
     api_version="2024-02-15-preview"
 )
 

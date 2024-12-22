@@ -17,14 +17,14 @@
 # logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # # Azure Search configuration
-# AZURE_SEARCH_ENDPOINT = "https://gptkb-jcgzeo3krxxra.search.windows.net"
+# AZURE_SEARCH_ENDPOINT = ""
 # AZURE_SEARCH_KEY = os.getenv('AZURE_SEARCH_KEY')  # Store sensitive data securely
 # AZURE_SEARCH_INDEX_NAME = os.getenv('AZURE_SEARCH_INDEX_NAME', 'rag-1')
 
 # # Initialize OpenAI client for Azure
 # client = AzureOpenAI(
 #     azure_endpoint="https://cog-jcgzeo3krxxra.openai.azure.com/",
-#     api_key="81505dbbd42945189028d9585b80a042",
+#     api_key="",
 #     api_version="2024-02-15-preview"
 # )
 
@@ -245,8 +245,8 @@ AZURE_SEARCH_INDEX_NAME = os.getenv('AZURE_SEARCH_INDEX_NAME', 'rag-1')
 
 # Initialize OpenAI client for Azure
 client = AzureOpenAI(
-    azure_endpoint="https://cog-jcgzeo3krxxra.openai.azure.com/",
-    api_key="81505dbbd42945189028d9585b80a042",
+    azure_endpoint="",
+    api_key="",
     api_version="2024-02-15-preview"
 )
 

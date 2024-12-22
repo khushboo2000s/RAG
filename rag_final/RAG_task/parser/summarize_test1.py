@@ -6,7 +6,7 @@
 
 # # # Configure the Azure OpenAI client
 # # llm = AzureChatOpenAI(
-# #         api_key='81505dbbd42945189028d9585b80a042',
+# #         api_key='',
 # #         azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 # #         api_version='2024-02-15-preview',
 # #         model="chat"
@@ -39,14 +39,14 @@
 
 # # Configure the Azure OpenAI client
 # llm = AzureChatOpenAI(
-#     api_key='81505dbbd42945189028d9585b80a042',
+#     api_key='',
 #     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/',
 #     api_version='2024-02-15-preview',
 #     model="chat"
 # )
 
 # # Initialize the SerpAPI tool with your API key
-# serpapi_api_key = "a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53"
+# serpapi_api_key = ""
 # serpapi_tool = SerpAPIWrapper(serpapi_api_key=serpapi_api_key)
 
 # # Initialize the agent
@@ -79,7 +79,7 @@
 #     return results
 
 # # Example usage
-# serp_api_key = "a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53"
+# serp_api_key = ""
 # query = "Cristiano Ronaldo current club"
 # results = fetch_search_results(query, serp_api_key)
 # print(results)
@@ -105,7 +105,7 @@
 
 # # Configure the Azure OpenAI client
 # llm = AzureChatOpenAI(
-#     api_key='81505dbbd42945189028d9585b80a042', 
+#     api_key='', 
 #     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/', 
 #     api_version='2024-02-15-preview', 
 #     model="chat",
@@ -113,7 +113,7 @@
 # )
 
 # # Set the SerpAPI key
-# serp_api_key = "a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53"
+# serp_api_key = ""
 
 # # Load the tools, including SerpAPI, and pass the API key
 # tools = load_tools(["serpapi"], llm=llm, serpapi_api_key=serp_api_key)
@@ -169,7 +169,7 @@ def fetch_search_results(query, api_key):
 
 # Configure the Azure OpenAI client with higher temperature for more detailed responses
 llm = AzureChatOpenAI(
-    api_key='81505dbbd42945189028d9585b80a042', 
+    api_key='', 
     azure_endpoint='https://cog-jcgzeo3krxxra.openai.azure.com/', 
     api_version='2024-02-15-preview', 
     model="chat",
@@ -177,7 +177,7 @@ llm = AzureChatOpenAI(
 )
 
 # Set the SerpAPI key
-serp_api_key = "a101ffb85610b27841da88f32366fd5fd397a4cb49a582b1b272405e9ae03a53"
+serp_api_key = ""
 
 # Define a custom prompt to encourage more detail in responses
 # template = """Based on the search results provided:
