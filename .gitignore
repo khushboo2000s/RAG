@@ -1,0 +1,22 @@
+# Ignore environment files
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore vector index files (if applicable)
+*.index
+
+# Ignore Git metadata backups
+.git/
+
+# Ignore IDE-specific files (e.g., VSCode)
+.vscode/
+
+
+RAG

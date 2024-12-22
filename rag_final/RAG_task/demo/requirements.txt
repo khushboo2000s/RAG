@@ -1,0 +1,11 @@
+PyPDF2
+python-docx
+langchain-core
+langchain
+langchain-community
+python-dotenv
+openai
+tiktoken
+azure-search-documents
+azure-core
+pypdf
